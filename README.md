@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
+# Pillion Prince 🏍️
 
-## Project info
+A modern React application built with TypeScript and Vite.
 
-**URL**: https://lovable.dev/projects/0067e1e4-9cf1-48ea-86ed-ef7269d95d74
+## 🚀 Features
 
-## How can I edit this code?
+- Built with React 18 and TypeScript
+- Fast development and build times with Vite
+- Modern and responsive design
+- Component-based architecture
+- Custom hooks for reusable logic
 
-There are several ways of editing your application.
+## 📦 Project Structure
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/0067e1e4-9cf1-48ea-86ed-ef7269d95d74) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+src/
+├── components/     # Reusable UI components
+├── lib/           # Utility functions and shared logic
+├── hooks/         # Custom React hooks
+├── pages/         # Application pages/routes
+├── App.tsx        # Main application component
+├── main.tsx       # Application entry point
+└── index.css      # Global styles
 ```
 
-**Edit a file directly in GitHub**
+## 🛠️ Technologies Used
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
+- React 18
 - TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Vite
+- CSS Modules
 
-## How can I deploy this project?
+## 🚀 Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/0067e1e4-9cf1-48ea-86ed-ef7269d95d74) and click on Share -> Publish.
+### Prerequisites
 
-## Can I connect a custom domain to my Lovable project?
+- Node.js (version 16 or higher)
+- npm or yarn
 
-Yes, you can!
+### Installation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/pillion-prince.git
+cd pillion-prince
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+4. Open your browser and visit `http://localhost:5173`
+
+## 🏗️ Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+The built files will be in the `dist` directory.
+
+## 🧪 Running Tests
+
+```bash
+npm run test
+# or
+yarn test
+```
+
+## 📝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- Your Name - Initial work
+
+## 🙏 Acknowledgments
+
+- React Team for the amazing framework
+- Vite Team for the blazing fast build tool
+- All contributors who help improve this project
+
+## 📞 Contact
+
+If you have any questions, feel free to reach out:
+
+- GitHub: [@yourusername](https://github.com/yourusername)
+- Email: your.email@example.com
+
+---
+
+Made with ❤️ by [Your Name]
