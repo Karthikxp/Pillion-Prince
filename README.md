@@ -107,7 +107,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions, feel free to reach out:
 
-- GitHub: [@yourusername](https://github.com/Karthikxp)
+- GitHub: [@Karthik](https://github.com/Karthikxp)
 - Email: karthik.manikandanmk@gmail.com
 
 ---
